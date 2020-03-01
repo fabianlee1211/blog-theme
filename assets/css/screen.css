@@ -166,13 +166,13 @@ body {
 }
 
 .site-logo {
-  max-height: 55px;
+  max-height: 100px;
 }
 
 .site-description {
   z-index: 10;
   margin: 0;
-  padding: 5px 0;
+  padding: 10px 0;
   font-size: 2.1rem;
   line-height: 1.4em;
   font-weight: 400;
