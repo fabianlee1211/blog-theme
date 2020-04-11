@@ -997,6 +997,16 @@ make sure this only happens on large viewports / desktop-ish devices.
   border-radius: 3px;
 }
 
+.subscription-form {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 170px 3vw;
+}
+
+.subscription-form p {
+  margin-bottom: 0;
+}
+
 .post-full-image img {
   max-width: 1040px;
   width: 100%;
@@ -1015,17 +1025,22 @@ make sure this only happens on large viewports / desktop-ish devices.
 }
 
 @media (max-width: 1170px) {
-  .post-full-content {
+  .post-full-content,
+  .subscription-form {
     padding: 0 11vw;
   }
 }
 @media (max-width: 800px) {
-  .post-full-content {
+  .post-full-content,
+  .subscription-form {
     padding: 0 5vw;
     font-size: 1.8rem;
   }
 }
 @media (max-width: 500px) {
+  .subscription-form {
+    padding: 0 0 1.8rem;
+  }
   .post-full-custom-excerpt {
     font-size: 1.9rem;
     line-height: 1.5em;
